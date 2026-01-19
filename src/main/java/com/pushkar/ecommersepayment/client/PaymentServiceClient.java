@@ -1,4 +1,4 @@
-package com.pushkar.ecommersepayment.webhook;
+package com.pushkar.ecommersepayment.client;
 
 import java.util.Map;
 
@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/api/webhooks")
 @RequiredArgsConstructor
 @Slf4j
-public class PaymentWebhookController {
+public class PaymentServiceClient {
 
   private final PaymentService paymentService;
 
